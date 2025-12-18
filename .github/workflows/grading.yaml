@@ -1,7 +1,6 @@
 name: AWS OIDC Lab1
 
-on:
-  workflow_dispatch:
+on: [push]
 
 permissions:
   id-token: write # required for OIDC
