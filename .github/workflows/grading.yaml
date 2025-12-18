@@ -24,6 +24,3 @@ jobs:
       run: |
         pip install pytest boto3
         pytest
-
-    - name: Run script
-      run: python test_lab1.py
